@@ -38,6 +38,13 @@ h1 {
   justify-self: center;
 }
 
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
 nav {
   background-color: #405d72;
 }
