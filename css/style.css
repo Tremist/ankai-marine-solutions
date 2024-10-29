@@ -5,6 +5,15 @@
   font-style: normal;
 }
 
+/* 
+COLORES ANKAI
+AZUL  #0f4f84
+BLANCO  #e6e2e1
+MARRONCITO  #b7a292
+MARRON OSCURO #444440 
+FONDO MAIN AGREGADO #7090a8
+*/
+
 body {
   display: grid;
   margin: 0;
@@ -16,8 +25,8 @@ body {
 }
 
 header {
-  background-color: #f7e7dc;
-  color: #405d72;
+  background-color: #e6e2e1;
+  color: #0f4f84;
 }
 
 .containerheader {
@@ -46,7 +55,7 @@ h2 {
 }
 
 nav {
-  background-color: #405d72;
+  background-color: #0f4f84;
 }
 
 .containernav {
@@ -64,15 +73,16 @@ nav {
 }
 
 main {
-  background-color: #758694;
+  background-color: #7090a8;
   padding: 20px;
-  color: white;
+  color: #e6e2e1;
   font-size: 1.1rem;
 }
 
 footer {
-  background-color: #405d72;
-  color: white;
+  /* background-color: #405d72; */
+  background-color: #0f4f84;
+  color: #e6e2e1;
   padding: 20px 0;
   display: flex;
   justify-content: space-between;
@@ -118,7 +128,7 @@ footer {
 }
 
 a:-webkit-any-link {
-  color: #f7e7dc;
+  color: #e6e2e1;
   cursor: pointer;
   text-decoration: none;
   font-family: "Montserrat", sans-serif;
@@ -143,7 +153,7 @@ a:-webkit-any-link {
   flex-direction: column;
   border-style: solid;
   border-radius: 0.5em;
-  background-color: #405d72;
+  background-color: #0f4f84;
   align-items: center;
 }
 
@@ -164,3 +174,9 @@ h5 {
   align-self: center;
   font-size: 0.8em;
 }
+
+/* PALETA COLORES ANKAI
+#b7a292
+#e6e2e1
+#0f4f84
+#444440 */
