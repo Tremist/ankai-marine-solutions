@@ -216,3 +216,34 @@ h5 {
 .textareaconfig {
   min-height: 200px;
 }
+
+.newheader {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  header {
+  }
+
+  .responsiveheader {
+    display: none;
+    background-image: url(../img/logo.jpg);
+  }
+  .newheader {
+    display: block;
+    display: flex;
+  }
+
+  .containerheader {
+    justify-content: flex-start;
+  }
+
+  header {
+    background-image: url(../img/DALL·E\ 2024-10-28\ 19.55.21\ -\ A\ realistic\ image\ of\ a\ 40-foot\ dry\ shipping\ container\ on\ a\ concrete\ platform.\ The\ container\ is\ painted\ in\ a\ neutral\ color\ with\ visible\ locking\ mechani.webp);
+  }
+
+  body {
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 1fr;
+  }
+}
