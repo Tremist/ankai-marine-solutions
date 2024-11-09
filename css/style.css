@@ -238,6 +238,9 @@ h5 {
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
+    border-top: solid;
+    border-bottom: solid;
+    border-left: solid;
   }
 
   .itemnewheader2 {
@@ -245,6 +248,9 @@ h5 {
     grid-column-end: 3;
     grid-row-start: 2;
     grid-row-end: 3;
+    border-top: solid;
+    border-bottom: solid;
+    border-right: solid;
   }
 
   .containerheader {
@@ -262,5 +268,18 @@ h5 {
 
   .productosmain {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .inputconfig {
+    min-width: none;
+    max-width: 35%vw;
+    padding: 0.5em;
+  }
+
+  .mainflex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
   }
 }
