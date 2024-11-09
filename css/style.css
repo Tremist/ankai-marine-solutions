@@ -228,7 +228,6 @@ h5 {
 @media screen and (min-width: 768px) {
   .responsiveheader {
     display: none;
-    background-image: url(../img/logo.jpg);
   }
   .newheader {
     display: block;
@@ -275,15 +274,8 @@ h5 {
   }
 
   .inputconfig {
-    min-width: none;
-    max-width: 35%vw;
+    max-width: 50vw;
+    min-width: 50vw;
     padding: 0.5em;
-  }
-
-  .mainflex {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    flex-wrap: wrap;
   }
 }
